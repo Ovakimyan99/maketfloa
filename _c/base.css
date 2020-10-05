@@ -134,6 +134,10 @@ body {
 
 /* Шапка сайта */
 
+.header-burger{
+  display: none;
+}
+
 .wis-header-block {
   overflow: hidden;
   padding: 5px 0 5px 0;
@@ -189,6 +193,7 @@ body {
   width: 100%;
   height: 100%;
   float: left;
+  position: relative;
 }
 
 .wis-header-search-form{
@@ -366,6 +371,26 @@ body {
   
   .wis-header-search-form input{
     width: auto;
+  }
+}
+
+@media(max-width:920px) {
+  .wis-global{
+    padding: 0 10px;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .wis-header{
+  width: 100%;
+  }
+  
+  .header-burger{
+  display: block;  
+  }
+  
+  .wis-header-nav ul{
+    display: none;
   }
 }
 
@@ -929,44 +954,114 @@ body {
 
 
 /* -- кнопка меню -- */
-.header__burger--wrapper{
-  overflow: hidden;
+.header-burger {
+  cursor: pointer;
   position: relative;
   width: 40px;
-  height: 25px;
-  padding: 1px 1px;
+  height: 40px;
   float: left;
-  margin: 11px 0 0 10px;
-  cursor: pointer;
+  margin: 8px 0 0 8px;
+  z-index: 1;
 }
-
-.header__burger{
-  width: 100%;
-  height: 3px;
-  background-color: #fff;
-  border-radius: 4px;
-  margin-top: 10px;
-}
-
-.header__burger::before, .header__burger::after{
-  content: '';
+.header-burger__global {
+  backface-visibility: hidden;
   position: absolute;
-  display: block;
-  height: 3px;
-  background-color: #fff;
-  border-radius: 4px;
-  width: calc(100% - 2px);
+  left: 0;
+  border-top: 7px solid white;
+  width: 100%;
+  transition: 0.55s;
 }
-
-.header__burger:after{
-  bottom: 0;
-}
-
-.header__burger:before{
+.header-burger__top {
   top: 0;
+}
+.header-burger__middle {
+  top: 14px;
+}
+.header-burger__bottom {
+  top: 28px;
+}
+.header-burger__top-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(50deg);
+  transition: 0.55s 0.5s;
+}
+.header-burger__middle-click {
+  opacity: 0;
+}
+.header-burger__bottom-click {
+  backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(-410deg);
+  transition: 0.55s 0.5s;
 }
 /* -- Конец кнопки меню -- */
 
 @media(max-width: 920px){
   
+}
+
+/* -- Выпадающий блок меню -- */
+.header-wis__drop{
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background: #d3f2c4f5;
+  
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease-out;
+}
+
+.header-wis__drop--ul{
+  background-color: #87b301;
+}
+
+.header-wis__drop--li{
+  float: none !important;
+  border-bottom: 1px solid #6bb301c7;
+  padding-left: 5px;
+}
+
+.header-wis__drop--li a{
+  color: #391e1e !important;
+}
+
+.header-wis__drop--li:hover{
+  background-image: -moz-linear-gradient(
+    -90deg,
+    rgb(239, 202, 3) 0%,
+    rgb(254, 198, 38) 51%,
+    rgb(242, 188, 26) 65%,
+    rgb(229, 178, 13) 100%
+  ); 
+  background-image: -webkit-linear-gradient(
+    -90deg,
+    rgb(239, 202, 3) 0%,
+    rgb(254, 198, 38) 51%,
+    rgb(242, 188, 26) 65%,
+    rgb(229, 178, 13) 100%
+  );  background-image: -ms-linear-gradient(
+    -90deg,
+    rgb(239, 202, 3) 0%,
+    rgb(254, 198, 38) 51%,
+    rgb(242, 188, 26) 65%,
+    rgb(229, 178, 13) 100%
+  );   
+  box-shadow: rgba(250, 172, 6, 0.75) 0px 1px 1px 0px inset;
+}
+
+.header-wis__drop--li:last-child{
+  border: none;
+}
+
+/* -- Выпадающий блок меню конец -- */
+
+.overflow{
+  background-color: #2e2d2d99;;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
