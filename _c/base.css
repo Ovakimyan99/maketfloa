@@ -335,6 +335,33 @@ body {
 }
 /* Конец шапки сайта */
 
+@media(max-width:720px) {
+  .wis-owlcarousel-slide-block{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .wis-owlcarousel-slide-text{
+   flex: 1; 
+  }
+  .wis-owlcarousel-slide-img{
+   flex: 1; 
+    max-width: 100%;
+   min-width: 250px;
+  }
+  .wis-owlcarousel-slide-text{
+    padding: 0 !important;;
+    min-width: 250px;
+    float: none !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+
 @media(max-width:1150px) {
   h2{
     font-size: 23px;
@@ -388,11 +415,16 @@ body {
   .header-burger{
   display: block;  
   }
+  .header-wis__drop--ul{
+    display: block !important;
+    width: 100% !important;
+  }
   
   .wis-header-nav ul{
     display: none;
   }
 }
+
 
 /* Блок слайдера */
 .wis-owlcarousel {
@@ -503,6 +535,34 @@ body {
   }
 }
 
+@media(max-width:920px) {
+  
+  .wis-owlcarousel-slide-text{
+    width: 35%;
+    padding: 8% 0 0;
+  }
+  .wis-owlcarousel-slide-img{
+   width: 65%; 
+   overflow: hidden;
+  }
+  
+  .wis-owlcarousel-slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .wis-owlcarousel-slide-button{
+    width: 100%;
+    max-width: 245px;
+  }
+  .wis-owlcarousel-slide-text-block{
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+}
+
 /* Блок предложений */
 
 .wis-offer {
@@ -532,7 +592,7 @@ body {
   width: 269px;
 }
 
-.wis-offer-block div:nth-child(4n + 1) {
+.wis-offer-block-element:nth-child(4n+1) {
   clear: both;
 }
 
@@ -570,7 +630,7 @@ body {
   display: block;
 }
 
-.wis-offer-block div:nth-child(4n) {
+.wis-offer-block div:last-child {
   margin-right: 0px;
 }
 
@@ -661,6 +721,7 @@ body {
 .wis-offer-block-element a:hover .wis-offer-block-element-text-title img {
   display: none;
 }
+
 /* Конец блока предложений */
 
 @media(max-width:1150px) {
@@ -677,6 +738,28 @@ body {
   .wis-offer-block-element-text-title img{
     margin-left: 15px;
     top: 20px;
+  }
+}
+
+@media(max-width:920px) {
+  .wis-offer-block-element{
+  margin: 0 5px 20px;
+  }
+  
+  .wis-offer-block div:last-child{
+    margin-right: 5px;
+  }
+  
+  .wis-offer-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+  
+  .wis-offer-block-element a:hover .wis-offer-block-element-text-pretitle .wis-offer-block-element-text-pretitle-1{
+  }
+  
+  .wis-offer-block-element a:hover .wis-offer-block-element-text-pretitle{
   }
 }
 
@@ -816,6 +899,19 @@ body {
   }
   .wis-services-categories-element-title{
     line-height: 1;
+  }
+}
+
+@media(max-width:920px) {
+  .wis-services-categories-element{
+    width: 300px;
+    margin: 0 5px 20px;
+  }
+  
+  .wis-services-categories{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   }
 }
 
@@ -961,7 +1057,7 @@ body {
   height: 40px;
   float: left;
   margin: 8px 0 0 8px;
-  z-index: 1;
+  z-index: 6;
 }
 .header-burger__global {
   backface-visibility: hidden;
@@ -998,7 +1094,16 @@ body {
 /* -- Конец кнопки меню -- */
 
 @media(max-width: 920px){
-  
+  .wis-footer-list div{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 0;
+  }
+  .wis-footer-list{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
 
 /* -- Выпадающий блок меню -- */
@@ -1064,4 +1169,5 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
+  z-index: 5;
 }
