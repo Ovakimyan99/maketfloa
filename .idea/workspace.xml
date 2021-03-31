@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b8066d-9d39-4809-a487-82c8cd16c9b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/maketFloat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_c/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_c/owl-carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_B.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_B.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_B.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_B.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_B.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_R.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_R.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_R.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_R.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/C_G_R.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/R_S.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/R_S.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/R_S.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/R_S.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_f/R_S.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/[Originals]/s-img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/pp-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/pp-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/pp-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/pp-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/s-img-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/s-img-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/s-img-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/slide-img-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/slide-img-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/slide-img-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i/slide-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +66,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617218839647</updated>
-      <workItem from="1617218850930" duration="684000" />
+      <workItem from="1617218850930" duration="1208000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617220049074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="585" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1617220049074" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1617220072804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617220072804" />
   </component>
 </project>
